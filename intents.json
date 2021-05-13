@@ -1,0 +1,254 @@
+{ "intents" : [
+
+    {"tag" : "",
+    "patterns" : [""," ","  "],
+    "responses":["Sorry, cant understand. Please ask related to our college only."]},
+
+
+    {"tag" : "greetings",
+    "patterns" : ["hello","hey","hola","namaste","konichiva","hi","greetings","whats up","how is it going","hii","Hi"],
+    "responses":["Hello!","Hey!","What can I do for you?"]},
+    
+
+    {"tag" : "work",
+    "patterns" : ["what are you doing","doing","what you do","what is your work","work do you do","what do you do"],
+    "responses":["iam here to help you"]},
+   
+    
+    {"tag" : "master",
+    "patterns" : ["who made you","your owner","owner"],
+    "responses":["Be Students","BE Students developed me"]},
+    
+    
+    {"tag" : "branches",
+    "patterns" : ["branches","how many branches you have","fields","courses"],
+    "responses":["We offer 1.Computer Science and engineering 2.E&TC Engineering 3.Civil Engineering 4.Mechanical Engineering"]},
+    
+   
+    {"tag" : "principal",
+    "patterns" : ["who is principal?","principal","dean"],
+    "responses":["DR. Venkateshan"]},
+    
+    
+    {"tag" : "thanks",
+    "patterns" : ["thank you","thanks","thanking you"],
+    "responses":["You are most Welcome!"]},
+    
+   
+    {"tag" : "bye",
+    "patterns" : ["bye","have a good day","good day","bye take care"],
+    "responses":["Bye Take Care & have a nice day!"]},
+    
+    
+    
+    {"tag" : "vice",
+    "patterns" : ["vice","vice principal"],
+    "responses":["DR. Ajam Sheikh"]},
+   
+   
+    {"tag" : "railway",
+    "patterns" : ["railway courses","railway"],
+    "responses":["We provide integrated courses of railways specific to  all branches"]},
+    
+    
+     
+    {"tag" : "fees",
+    "patterns" : ["fee"," fee Structure","fees structure","how much fees to pay","how much fees"],
+    "responses":["Please view this link: <a href='http://mitcorer.edu.in/assets/pdf/admission-pdf/MITCORER_Fee_Structure_20-21.pdf' target='_blank'> click here</a>"]},
+     
+     
+     
+     {"tag" : "college",
+    "patterns" : ["college name","name of college","what is the name","what is the name of the college"],
+    "responses":["MIT College Of Railway Engineering And Research,Barshi"]},
+    
+    
+    
+    {"tag" : "route",
+    "patterns" : ["road","road for college","common route","common route for college","what is the common route for college","what is the route for college","by which road can we come","by which road can we come to college"],
+    "responses":["Please view this link: <a href='https://cutt.ly/0x3tqWW'target='_blank'>click here</a>"]},
+     
+     
+     {"tag" : "reach",
+    "patterns" : ["reach college","how to reach college","common route","common route for college","road for college","what is the route for college","by which road can we come","by which road can we come to college"],
+    "responses":["Please view this link: <a href='https://cutt.ly/0x3tqWW'target='_blank'>click here</a>"]},
+     
+     
+     {"tag" : "location",
+    "patterns" : ["situated at","location","located at","located","address","where is your college located at","where is your college"],
+    "responses":["MAEER’s MIT College of Railway Engineering and Research At Post Jamgaon, Tal. Barshi, Dist. Solapur, Maharashtra"]},
+     
+     
+     
+     {"tag" : "contact",
+    "patterns" : ["mail id","contact","phone number","office","human","admission"],
+    "responses":["Mail us at info.mitcorer@mitpune.edu.in or call at +91 8459974437 , +91 8459967882 ,+91 9561067308 , +91 9146891811"]},
+   
+   
+   
+    {"tag" : "hodcse",
+    "patterns" : ["hod cse","computer science hod","computer hod","head of department of computer science"],
+    "responses":["Prof. Vitthal Jagtap"]},
+    
+    
+    
+    {"tag" : "hodetc",
+    "patterns" : ["hod entc","hod E&tc","head of department of electronics"],
+    "responses":["Dr Vishnu Suryawanshi"]},
+    
+    
+    
+    {"tag" : "hodcivil",
+    "patterns" : ["hod civil","head of department of civil"],
+    "responses":["Prof Mangesh Kevadkar "]},
+   
+   
+   
+    {"tag" : "hodmech",
+    "patterns" : ["hod mech","head of department of mech"],
+    "responses":["Prof Abhijeet Pawar"]},
+     
+     
+     
+     {"tag" : "open",
+    "patterns" : ["when can we visit college","college is open on"],
+    "responses":["college is working for all 7 days a week from 9.00am to 5.00pm"]},
+    
+    
+    
+    {"tag" : "dte",
+    "patterns" : ["DTE","DTE code","dte code of college","what is the dte code of college","what is the dte code"],
+    "responses":["EN-6901"]},
+    
+    
+    
+    {"tag" : "help",
+    "patterns" : ["helpline number","help","number","queries","assistant"],
+    "responses":["Call us at 9420016346 or mail us at info.mitcorer@mitpune.edu.in"]},
+    
+    
+    
+    {"tag" : "seats",
+    "patterns" : ["seats","quota","available seats"],
+    "responses":["60 seats are available for each branch"]},
+    
+    
+    
+    {"tag" : "brochure",
+    "patterns" : ["brochure"," college brochure","give college brochure"],
+    "responses":["Please view this link: <a href='http://mitcorer.edu.in/assets/pdf/admission-pdf/MITCORER-Brochure.pdf' target='_blank'> click here</a>"]},
+
+
+
+    {"tag" : "calendar",
+    "patterns" : ["calendar","academic calendar","give academic calendar"],
+    "responses":["Please view this link: <a href='http://mitcorer.edu.in/assets/pdf/Academic-Calender.pdf' target='_blank'> click here</a>"]},
+
+
+
+     {"tag" : "admission",
+    "patterns" : ["admission","how to take admission","admission process","take admission in college"],
+    "responses":["Please view this link: <a href='http://mitcorer.edu.in/admission-first-year-details' target='_blank'> click here</a>"]},
+    
+    
+    
+    
+     {"tag" : "about",
+    "patterns" : ["about college","tell me about college","give information about college"],
+    "responses":["Please view this link: <a href='http://mitcorer.edu.in/about-mitcorer' target='_blank'> click here</a>"]},
+
+
+
+
+     {"tag" : "documents",
+    "patterns" : ["documents","documents required for admission","what documents are needed","documents required for admission","what are the documents required for admission","documents for admission process"],
+    "responses":["Please view this link: <a href='http://mitcorer.edu.in/assets/pdf/admission-pdf/Required-Documents-for-Admission-FE-DSE-20-21.pdf' target='_blank'> click here</a>"]},
+    
+    
+    
+    
+     {"tag" : "civil",
+    "patterns" : ["civil engineering","civil engineering in college","civil branch of college"],
+    "responses":["Please view this link: <a href='http://mitcorer.edu.in/civil-engineering' target='_blank'> click here</a>"]},
+    
+    
+    
+    
+    
+    {"tag" : "computer science",
+    "patterns" : ["computer science and engineering","computer science and engineering in college","computer science branch of college"],
+    "responses":["Please view this link: <a href='http://mitcorer.edu.in/computer-science-and-engineering' target='_blank'> click here</a>"]},
+    
+    
+    
+    
+    {"tag" : "mechanical",
+    "patterns" : ["mechanical engineering","mechanical engineering in college","mechanical branch of college"],
+    "responses":["Please view this link: <a href='http://mitcorer.edu.in/mechanical-engineering' target='_blank'> click here</a>"]},
+    
+    
+    
+    
+    {"tag" : "electronics ",
+    "patterns" : ["electronics and telecommunication engineering","e&tc","e&tc engineering in college","electronics and telecommunication branch of college"],
+    "responses":["Please view this link: <a href='http://mitcorer.edu.in/electronic-and-telecommunication-engineering' target='_blank'> click here</a>"]},
+    
+    
+    
+    
+    {"tag" : "faculty",
+    "patterns" : ["faculty","faculties of college","who are faculty","who are faculties","who are faculty of college"],
+    "responses":["Please view this link: <a href='http://mitcorer.edu.in/assets/pdf/List_of_Teaching_%20Faculties02012021.pdf' target='_blank'> click here</a>"]},
+    
+    
+    
+    
+    {"tag" : "placements",
+    "patterns" : ["placements of college","placements details","tell me about placements","details of placements","placement of college"],
+    "responses":["Please view this link: <a href='http://mitcorer.edu.in/placement-details' target='_blank'> click here</a>"]},
+    
+    
+    
+    
+    {"tag" : "instagram",
+    "patterns" : ["instagram","instagram id","instagram id of college","instagram username","what is instagram id","what is instagram username"],
+    "responses":["Please view this link: <a href='https://www.instagram.com/mitcorer_barshi/' target='_blank'> click here</a>"]},
+    
+    
+    
+    {"tag" : "facebook",
+    "patterns" : ["facebook","facebook id","facebook id of college","what is facebook id"],
+    "responses":["Please view this link: <a href='https://www.facebook.com/mitcorer/' target='_blank'> click here</a>"]},
+    
+    
+    
+    {"tag" : "twitter",
+    "patterns" : ["twitter","twitter id","what is twitter id of college","what is twitter username"],
+    "responses":["Please view this link: <a href='https://twitter.com/mitcorer' target='_blank'> click here</a>"]},
+    
+    
+    
+    {"tag" : "linkedin",
+    "patterns" : ["linkedin","linkedin id","what is linkedin id of college","what is linkedin username"],
+    "responses":["Please view this link: <a href='https://in.linkedin.com/company/mitcorer' target='_blank'> click here</a>"]},
+    
+    
+    
+    {"tag" : "infrastructure",
+    "patterns" : ["infrastructure","infrastructure of college","what is infrastructure of college"],
+    "responses":["Please view this link: <a href='http://mitcorer.edu.in/infrastructure' target='_blank'> click here</a>"]},
+    
+    
+    
+    {"tag" : "library",
+    "patterns" : ["library","library of college","tell me about library of college","tell me about library"],
+    "responses":["Please view this link: <a href='http://mitcorer.edu.in/library' target='_blank'> click here</a>"]},
+    
+    
+    
+    
+    {"tag" : "news",
+    "patterns" : ["news","news of college","tell me about news of college","what is news of college"],
+    "responses":["Please view this link: <a href='http://mitcorer.edu.in/allnews' target='_blank'> click here</a>"]}
+    
+]}
